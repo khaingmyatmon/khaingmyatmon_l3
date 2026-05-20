@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MobileStore</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="site-header">
+    <div class="header-container">
+        <div class="shop-logo">
+            <a href="index.html">MOBILE<span>STORE</span></a>
+        </div>
+
+        <nav class="main-nav">
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="products.html" class="nav-link active">Products</a></li>
+                <li><a href="accessories.html" class="nav-link active">Accessories</a></li>
+                <li><a href="about.html" class="nav-link active">About</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="header-btns">
+            <a href="products.html" class="shop-now">Shop Now</a>
+        </div>
+    </div>
+</header>
+
+  <div class="contact-wrapper">
+        <header class="contact-header">
+            <h2>Contact Us</h2>
+            <p>Have questions about a phone? We're here to help.</p>
+        </header>
+
+        <div class="contact-container">
+            <div class="contact-info-panel">
+                <div class="info-item">
+                    <h3>Our MobileStore</h3>
+                    <p>No. 123, Mobile Street, Dawei, Myanmar.</p>
+                </div>
+                <div class="info-item">
+                    <h3>Call Us</h3>
+                    <p>09-455-345-222</p>
+                </div>
+                <div class="info-item">
+                    <h3>Email Support</h3>
+                    <p>info@mobilestore.com</p>
+                </div>
+                <div class="social-links">
+                <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://x.com/?lang=en-sg"><i class="fab fa-x"></i></a>
+                <a href="https://www.pinterest.com/"><i class="fab fa-pinterest-p"></i></a>
+                <a href="http://instagram.com/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+            </div>
+            </div>
+
+            <div class="contact-form-panel">
+                <form action="#confirm-box" id="direct-contact-form" >
+                    <div class="input-row">
+                        <div class="field">
+                            <label>Name</label>
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="field">
+                            <label>Email</label>
+                            <input type="email" placeholder="Email Address" required>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label>Subject</label>
+                        <select>
+                            <option>-- Select Subject --</option>
+                            <option>General Inquiry</option> 
+                            <option>Order Status</option>
+                            <option>Warranty Claim</option>
+                            <option>Technician Support</option>
+                        </select>
+                    </div>
+                    <div class="field">
+                        <label>Message</label>
+                        <textarea rows="5" placeholder="How can we help you?" required></textarea>
+                    </div>
+
+                    <button type="submit" class="order-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+
+    
+    </div>
+
+    <div id="confirm-box" class="modal-overlay">
+    <div class="modal-content">
+         <h2>Message Sent!</h2>
+      <p>We've received your inquiry and will get back to you within 24 hours.</p>
+        <a href="#" class="close-btn">OK</a>
+    </div>
+</div>
+    
+ <footer class="main-footer">
+    <div class="footer-container">
+        <div class="footer-col">
+            <h2 class="footer-logo">MOBILE<span>STORE</span></h2>
+            <p>Your one-stop destination for the latest smartphones and premium accessories. Quality and authenticity guaranteed.</p>
+        </div>
+
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="accessories.html">Accessories</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h3>Contact Info</h3>
+            <p>No. 123, Mobile Street, Dawei, Myanmar.</p>
+            <p>09-455-345-222</p>
+            <p>info@mobilestore.com</p>
+        </div>
+
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>Subscribe to get updates on new arrivals and special offers.</p>
+            <form action="#confirm-box4" class="confirm-box4-noti newsletter-form">
+                <input type="email" placeholder="Your Email" required>
+                <button type="submit">Join</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2026 Mobile Store. | Designed with Khaing Myat Mon.</p>
+    </div>
+</footer>   
+<div id="confirm-box4" class="modal-overlay4">
+    <div class="modal-content4">
+        <h3>Successfully joined!</h3>
+        <p>Thank you for your subscribing.</p>
+        <a href="#" class="close-btn4">OK</a>
+    </div>
+</div>
+</body>
+</html>

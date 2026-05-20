@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MobileStore-Order Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+    <div class="header-container">
+        <div class="shop-logo">
+            <a href="index.html">MOBILE<span>STORE</span></a>
+        </div>
+
+        <nav class="main-nav">
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="products.html" class="nav-link active">Products</a></li>
+                <li><a href="accessories.html" class="nav-link active">Accessories</a></li>
+                <li><a href="about.html" class="nav-link active">About</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="header-btns">
+            <a href="products.html" class="shop-now">Shop Now</a>
+        </div>
+    </div>
+</header>
+
+ <div class="order-container1">
+       <form action="#confirm-box">
+            <h3>Mobile Store - Order Form</h3>
+            
+            
+            <div class="form-group1">
+                <div class="form-group1">
+                <label for="fullname">Customer Name</label>
+                <input type="text" id="fullname" placeholder="Enter your full name" required>
+            </div>
+
+                <div class="form-group1">
+                    <label for="phone1">Phone Number</label>
+                    <input type="tel" id="phone1" placeholder="Enter your phone number" required>
+                </div>
+    
+            
+
+            <div class="form-group1">
+                <label for="address">Shipping Address</label>
+                <textarea id="address" rows="3" placeholder="Enter your address" required></textarea>
+            </div>
+                <label for="model">Select Phone Model</label>
+                <select id="model" required>
+                    <option value="">-- Select Model --</option>
+                    <option value="Vivo V 70">Vivo V 70</option>
+                    <option value="Vivo X 100 pro 5G">Vivo X 100 pro 5G</option>
+                    <option value="Vivo Y17s">Vivo Y17s</option>
+                    <option value="Vivo Y36 5G">Vivo Y36 5G</option>
+                    <option value="OPPO Reno 10 Pro+">OPPO Reno 10 Pro+</option>
+                    <option value="OPPO A78 5G">OPPO A78 5G</option>
+                    <option value="OPPO Find N3 Flip">OPPO Find N3 Flip</option>
+                    <option value="samsung S26 ultra">samsung S26 ultra</option>
+                    <option value="Vivo V 70">Vivo V 70</option>
+                    <option value="Samsung Galaxy S9 ">Samsung Galaxy S9 </option>
+                    <option value="Samsung Galaxy A72 ">Samsung Galaxy A72 </option>
+                    <option value="Samsung Galaxy S25+">Samsung Galaxy S25+</option>
+                    <option value="Apple iPhone 14">Apple iPhone 14</option>
+                    <option value="iPhone 17 Pro ">iPhone 17 Pro </option>
+                    <option value="iphone 14 pro max ">iphone 14 pro max </option>
+                    <option value="iPhone 17 Pro Max Orange">iPhone 17 Pro Max Orange</option>
+
+                    <option value="--">---</option>
+                </select>
+            </div>
+
+            <div class="row1">
+                <div class="form-group1">
+                    <label for="accessories">Select Accessories</label>
+                    <select id="accessories" required>
+                        <option value="">-- Select Accessories --</option>
+                        <option value="Phone Case">Phone Case</option>
+                        <option value="Earphone">Earphone</option>
+                        <option value="Fast Charger">Fast Charger</option>
+                        <option value="Power Bank">Power Bank</option>
+                        <option value="Cute cat ears Headset">Cute cat ears Headset</option>
+                        <option value="Phone Watch">Phone Watch</option>
+                        <option value="Lenovo Idea Tab">Lenovo Idea Tab</option>
+                        <option value="Flower Print Phone Case">Flower Print Phone Case</option>
+                        <option value="--">---</option>
+                        
+                    </select>
+                </div>
+                <div class="form-group1">
+                    <label for="color">Device Color</label>
+                    <select id="color" required>
+                        <option value="">-- Select color --</option>
+                        <option value="Pink">Pink</option>
+                        <option value="Brown">Brown</option>
+                        <option value="Black">Black</option>
+                        <option value="White">White</option>
+                        <option value="magenta">magenta</option>
+                        <option value="Orange">Orange</option>
+                        <option value="Violet">Violet</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group1">
+                <label>Payment Method</label>
+                <div class="radio-group">
+                    <input type="radio" name="pay" id="cod" checked> <label for="cod" class="inline-label">Cash on Delivery</label>
+                    <input type="radio" name="pay" id="mobile"> <label for="mobile" class="inline-label">Mobile Banking</label>
+                </div>
+            </div>
+
+            <button type="submit" class="order-btn">Confirm Purchase</button>
+            
+        </form>
+    </div>
+
+    <div id="confirm-box" class="modal-overlay">
+    <div class="modal-content">
+        <h3>Order Received!</h3>
+        <p>Thank you for choosing our store.</p>
+        <a href="#" class="close-btn">OK</a>
+    </div>
+</div>
+
+
+<footer class="main-footer">
+    <div class="footer-container">
+        <div class="footer-col">
+            <h2 class="footer-logo">MOBILE<span>STORE</span></h2>
+            <p>Your one-stop destination for the latest smartphones and premium accessories. Quality and authenticity guaranteed.</p>
+        </div>
+
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="accessories.html">Accessories</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h3>Contact Info</h3>
+            <p>No. 123, Mobile Street, Dawei, Myanmar.</p>
+            <p>09-455-345-222</p>
+            <p>info@mobilestore.com</p>
+        </div>
+
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>Subscribe to get updates on new arrivals and special offers.</p>
+            <form action="#confirm-box4" class="confirm-box4-noti newsletter-form">
+                <input type="email" placeholder="Your Email" required>
+                <button type="submit">Join</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2026 Mobile Store. | Designed with Khaing Myat Mon.</p>
+    </div>
+</footer>   
+<div id="confirm-box4" class="modal-overlay4">
+    <div class="modal-content4">
+        <h3>Successfully joined!</h3>
+        <p>Thank you for your subscribing.</p>
+        <a href="#" class="close-btn4">OK</a>
+    </div>
+</div>
+    
+</body>
+</html>
